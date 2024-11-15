@@ -1,0 +1,28 @@
+main {
+    border: solid 2px;
+    border-color: pink;
+}
+
+.card {
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    width: 50vw;
+}
+
+.cardcep {
+    display: inline;
+    align-items: center;
+    flex-direction: row;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
