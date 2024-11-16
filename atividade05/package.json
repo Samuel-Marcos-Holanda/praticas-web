@@ -1,0 +1,17 @@
+{
+  "name": "atividade04",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsx watch src/server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "atividade04": "file:",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
