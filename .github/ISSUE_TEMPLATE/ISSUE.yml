@@ -1,0 +1,43 @@
+name: Issue template
+description: Template for creating issues
+labels: [ "issue", "backend" ]
+body:
+- type: markdown
+  attributes:
+    value: |
+      A brief description of your issue, simple and easy to understand.
+- type: textarea
+  id: description
+  attributes:
+    label: Describe your issue
+    placeholder: Along with a brief description, please provide as much detail as possible
+  validations:
+    required: true
+- type: textarea
+  id: release_note
+  attributes:
+    label: "Release Note: X.X.XX"
+    placeholder: |
+      - Add here the release note
+- type: textarea
+  id: steps
+  attributes:
+    label: Steps to reproduce
+    placeholder: |
+      1. Go to page X
+      2. Click here
+      3. Click there
+  validations:
+    required: true
+- type: textarea
+  id: screenshots
+  attributes:
+    label: Put here any screenshots or videos (optional)
+- type: markdown
+  attributes:
+    value: |
+      - When the assignee cannot complete the task, mark it as urgent.
+      - Notify the Master about changes in the issue's assignment.
+      - Inform the Master about changes in the issue's attributes.
+      - Convert the issue into a parent issue, if necessary. Parent Issue - Issue with sub-issues.
+      - Add the issue to the project.
